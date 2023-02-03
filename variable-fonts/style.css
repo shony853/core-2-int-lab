@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-variation-settings: "opsz" 10, "wdth" 100;
+    font-size: 300px;
+    font-weight: normal;
+    margin: 0;
+    color: blue;
+    transition: all 1000ms ease-in-out;
+}
+h1:hover{
+    color: hotpink;
+    font-variation-settings: "opsz" 144, "wdth" 300;
+}

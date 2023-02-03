@@ -1,0 +1,17 @@
+body{
+    background-color: #a63b26;
+    color: #d1cfcf;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-weight: 400;
+}
+p {
+    font-weight: 400; 
+}
+a {
+    color: #d1cfcf;
+}
