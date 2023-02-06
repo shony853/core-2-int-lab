@@ -1,6 +1,6 @@
 body{
-    background-color: #a63b26;
-    color: #d1cfcf;
+    background-color: #124f0f;
+    color: #aeebe5;
     font-family: 'Merriweather Sans', sans-serif;
 }
 h1 {
@@ -13,6 +13,5 @@ p {
     font-weight: 400; 
 }
 a {
-    color: #d1cfcf;
+    color: #aeebe5;
 }
-
