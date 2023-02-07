@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-style: italic; 
+    margin-left: 40px;
+}
+p {
+    font-size: 40px;
+}
