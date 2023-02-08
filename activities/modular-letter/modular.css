@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .letter{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+  }
+  .block{
+    background: purple;
+    border-radius: 50% 50% 0% 0%;
+    mix-blend-mode: multiply; 
+    filter: drop-shadow(15px 15px skyblue);
+  }
+  .no-block{
+    border: 2px solid limegreen;
+  }
+  
+  /* transform: skew(-10deg); /*
