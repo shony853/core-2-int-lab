@@ -11,13 +11,24 @@
     gap: 5px;
   }
   .block{
-    background: purple;
-    border-radius: 50% 50% 0% 0%;
+    background: #eb54e1;
+    border-radius: 50% 50% 10% 50%;
     mix-blend-mode: multiply; 
-    filter: drop-shadow(15px 15px skyblue);
+    filter: drop-shadow(15px 15px #7feb54);
+    transform: rotate(10deg);
+    animation: changecolor 2s infinite alternate;
   }
   .no-block{
-    border: 2px solid limegreen;
+    border: none;
+  }
+
+  @keyframes changecolor{
+    0%{
+      background-color:#373cd4;
+    }
+    100%{
+      background-color:#d44437;
+    }
   }
   
-  /* transform: skew(-10deg); /*
+  
