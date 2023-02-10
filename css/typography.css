@@ -6,7 +6,7 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
- @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Oswald:wght@300;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair+Display&display=swap');
 
  /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -273,7 +273,7 @@ nav li {
 
 
 p {
-  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
   font-size: var(--text-base-size);
   margin-bottom: 1 rem;
   line-height: 150%;
@@ -336,14 +336,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: var(--text-x6);
   line-height: 110%;
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   font-weight: 700;
 }
 
 h2 {
   font-size: var(--text-x5);
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   line-height: 110%;
   font-weight: 700;
@@ -351,7 +351,7 @@ h2 {
 
 h3 {
   font-size: var(--text-x4);
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   line-height: 120%;
   font-weight: 700;
@@ -359,7 +359,7 @@ h3 {
 
 h4 {
   font-size: var(--text-x3);
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   line-height: 120%;
   font-weight: 700;
@@ -367,7 +367,7 @@ h4 {
 
 h5 {
   font-size: var(--text-x2);
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   line-height: 120%;
   font-weight: 700;
@@ -375,28 +375,28 @@ h5 {
 
 h6 {
   font-size: var(--text-x1);
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   line-height: 120%;
   font-weight: 700;
 }
 
 .core-lab-sans-medium {
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif; 
   font-weight: 500;
   line-height: 100%;
 
 }
 
 .core-lab-sans {
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Jost', sans-serif;
   font-weight: 300;
   line-height: 100%;
 
 }
 
 .core-lab-serif {
-  font-family: 'Bitter', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   line-height: 100%;
 
