@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .letter{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+  }
+  .block{
+    background: #eb54e1;
+    border-radius: 50% 50% 10% 50%;
+    mix-blend-mode: multiply; 
+    filter: drop-shadow(15px 15px #7feb54);
+    transform: rotate(10deg);
+    animation: changecolor 2s infinite alternate;
+  }
+  .no-block{
+    border: none;
+  }
+
+  @keyframes changecolor{
+    0%{
+      background-color:#373cd4;
+    }
+    100%{
+      background-color:#d44437;
+    }
+  }
+  
+  
