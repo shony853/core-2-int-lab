@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color:black;
+    font-family: bilo, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.block{
+    background-color: white;
+    border-radius: 50% 50% 50% 50%;
+}
+.no-block{
+    border: none;
+}
+a{
+    margin-left:90vw;
+    color: white;
+    text-decoration: none;
+    
+  }
+  a:hover {
+    font-size: 3vh;
+  }
