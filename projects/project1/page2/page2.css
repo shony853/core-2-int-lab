@@ -36,6 +36,7 @@ main {
     text-align: center;
     margin-top: 4vw;
     font-size:1.2vh;
+    align-items: center;
   }
   .box2 {
     border-radius: 50%;
@@ -47,6 +48,7 @@ main {
     margin-left:15%;
     margin-top: 2vw;
     font-size:1.5vh;
+    align-items: center;
 
   }
   .box3 {
@@ -59,4 +61,5 @@ main {
     margin-left:50%;
     margin-top: -50vw;
     font-size: 2vh;
+    align-items: center;
   }

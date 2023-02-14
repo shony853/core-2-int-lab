@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+#container {
+    font-family: bilo, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: justify;
+    margin: 10%;
+    color: black;
+}
+.box1 {
+    font-size: 1.2vh;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.box2 {
+    font-size: 1.5vh;
+    background-color: white;
+    color: black;
+    width: 23vw;
+    height: 23vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 50vw;
+    margin-top: 5vw;
+}
+.box3 {
+    font-size: 1vw;
+    background-color: white;
+    color: black;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 40vw;
+    margin-top: 3vw;
+}
+.box4 {
+    font-size: 1.5vh;
+    background-color: white;
+    color: black;
+    width: 23vw;
+    height: 23vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+}
+.box5 {
+    font-size: 1.7vh;
+    background-color: white;
+    color: black;
+    width: 24vw;
+    height: 24vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 45vw;
+}
+.box6 {
+    font-size: 1.3vh;
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 20vw;
+    
+}
+.box7 {
+    font-size: 1.8vh;
+    background-color: white;
+    color: black;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 53vw;
+    margin-top: 5vw;
+}
+a{
+    margin-left:90vw;
+    color: white;
+    text-decoration: none;
+    
+  }
+  a:hover {
+    font-size: 3vh;
+  }
