@@ -16,15 +16,15 @@ p {
     background-color: white;
     margin-left: 50vw;
     margin-top: -1vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #one {
-    width:7pt;
-    height:7pt;
+    width:5pt;
+    height:5pt;
     background-color: white;
     margin-left: 15vw; 
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #two {
     width:5pt;
@@ -32,7 +32,7 @@ p {
     background-color: white;
     margin-left: 70vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #three {
     width:5pt;
@@ -40,7 +40,7 @@ p {
     background-color: white;
     margin-left: 50vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #four {
     width:5pt;
@@ -48,7 +48,7 @@ p {
     background-color: white;
     margin-left: 60vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #five {
     width:5pt;
@@ -56,7 +56,7 @@ p {
     background-color: white;
     margin-left: 30vw;
     margin-top: 7vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #six {
     width:5pt;
@@ -64,7 +64,7 @@ p {
     background-color: white;
     margin-left: 80vw;
     margin-top: -20vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #seven {
     width:5pt;
@@ -72,7 +72,7 @@ p {
     background-color: white;
     margin-left: 25vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #eight {
     width:5pt;
@@ -80,7 +80,7 @@ p {
     background-color: white;
     margin-left: 10vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #nine {
     width:5pt;
@@ -88,7 +88,7 @@ p {
     background-color: white;
     margin-left: 90vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #ten {
     width:5pt;
@@ -96,7 +96,7 @@ p {
     background-color: white;
     margin-left: 70vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #eleven {
     width:5pt;
@@ -104,7 +104,7 @@ p {
     background-color: white;
     margin-left: 50vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #twelve {
     width:5pt;
@@ -112,7 +112,7 @@ p {
     background-color: white;
     margin-left: 10vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #thirteen {
     width:5pt;
@@ -120,7 +120,7 @@ p {
     background-color: white;
     margin-left: 90vw;
     margin-top: 5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 #fourteen {
     width:5pt;
@@ -128,5 +128,5 @@ p {
     background-color: white;
     margin-left: 65vw;
     margin-top: -5vw;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
