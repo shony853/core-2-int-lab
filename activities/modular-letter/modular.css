@@ -24,10 +24,10 @@
 
   @keyframes changecolor{
     0%{
-      background-color:#373cd4;
+      background-color:purple;
     }
     100%{
-      background-color:#d44437;
+      background-color:#eb54e1;
     }
   }
   

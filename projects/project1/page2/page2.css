@@ -16,18 +16,11 @@ main {
   section {
     background: white;
     padding: 1rem;
-    font-size: 2vh;
   }
-  a{
-    margin-left:90vw;
-    color: white;
-    text-decoration: none;
-    
-  }
-  a:hover {
-    font-size: 3vh;
-  }
+  
   .box1 {
+    font-size: .8vw;
+    padding: 1.5vw;
     border-radius: 50%;
     background-color: white;
     width:15vw;
@@ -35,31 +28,44 @@ main {
     color:black;
     text-align: center;
     margin-top: 4vw;
-    font-size:1.2vh;
     align-items: center;
+    display: flex;
   }
   .box2 {
+    font-size: .8vw;
+    padding: 2vw;
     border-radius: 50%;
     background-color: white;
-    width:25vw;
-    height: 25vw;
+    width:21vw;
+    height: 21vw;
     color:black;
     text-align: center;
     margin-left:15%;
     margin-top: 2vw;
-    font-size:1.5vh;
     align-items: center;
+    display: flex;
 
   }
   .box3 {
+    font-size: 1vw;
+    padding: 4vw;
     border-radius: 50%;
     background-color: white;
-    width:40vw;
-    height: 40vw;
+    width:32vw;
+    height: 32vw;
     color:black;
     text-align: center;
     margin-left:50%;
     margin-top: -50vw;
-    font-size: 2vh;
     align-items: center;
+    display: flex;
+  }
+  a{
+    margin-left:85vw;
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  a:hover {
+    font-size: 2vw;
   }
