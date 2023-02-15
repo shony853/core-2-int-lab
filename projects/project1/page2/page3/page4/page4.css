@@ -2,7 +2,7 @@ body{
     background-color: black;
     font-family: bilo, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
 }
 #container {
     font-family: bilo, sans-serif;
@@ -102,16 +102,14 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
-    margin-left: 50vw;
+    margin-left: 46vw;
     margin-top: 5vw;
 }
 a{
+    font-size: 5vw;
     margin-left:90vw;
+    margin-top:-5vw;
     color: white;
     text-decoration: none;
     
-  }
-  a:hover {
-    font-size: 3vh;
-    font-weight: 300;
   }

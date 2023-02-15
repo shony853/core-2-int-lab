@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: bilo, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: .7vw;
+}
+.circle {
+    font-size: .9vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 10vw;
+    padding: 5vw;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}

@@ -7,7 +7,7 @@ body {
 }
 .block{
     background-color: white;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
 .no-block{
     border: none;
