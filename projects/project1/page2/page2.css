@@ -4,6 +4,10 @@ body {
     font-style: normal;
     font-weight: 100;
 }
+p{
+    margin-left: 2vw;
+    margin-top: -10vw;
+}
 main {
     background: black;
     width: 90vw;
@@ -30,6 +34,7 @@ main {
     margin-top: 4vw;
     align-items: center;
     display: flex;
+    margin-top: -2vw;
   }
   .box2 {
     font-size: .8vw;
@@ -55,17 +60,14 @@ main {
     height: 32vw;
     color:black;
     text-align: center;
-    margin-left:50%;
+    margin-left:52%;
     margin-top: -50vw;
     align-items: center;
     display: flex;
   }
   a{
-    margin-left:85vw;
+    margin-left:90vw;
     color: white;
     text-decoration: none;
-    font-size: 1vw;
-  }
-  a:hover {
-    font-size: 2vw;
+    font-size: 5vw;
   }
