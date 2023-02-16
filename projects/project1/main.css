@@ -174,4 +174,9 @@ p {
     margin-left: 65vw;
     margin-top: -5vw;
     border-radius: 50%;
+    animation: blink14 1.5s infinite;
+}
+@keyframes blink14 {
+    from{background-color:grey;}
+    to{background-color: white;}
 }
