@@ -23,6 +23,15 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
+    animation: circleFall1 10.3s ease-out;
+}
+@keyframes circleFall1 {
+    0% {
+        transform: translateY(-150vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box2 {
     font-size: 1.2vw;
@@ -36,6 +45,15 @@ body{
     display: flex;
     align-items: center;
     margin-left: 50vw;
+    animation: circleFall2 9.7s ease-out;
+}
+@keyframes circleFall2 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box3 {
     font-size: 1vw;
@@ -50,6 +68,15 @@ body{
     align-items: center;
     margin-left: 40vw;
     margin-top: 3vw;
+    animation: circleFall3 9s ease-out;
+}
+@keyframes circleFall3 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box4 {
     font-size: 1.2vw;
@@ -63,6 +90,15 @@ body{
     display: flex;
     align-items: center;
     margin-left: 5vw;
+    animation: circleFall4 8s ease-out;
+}
+@keyframes circleFall4 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box5 {
     font-size: 1.2vw;
@@ -76,6 +112,15 @@ body{
     display: flex;
     align-items: center;
     margin-left: 45vw;
+    animation: circleFall5 7s ease-out;
+}
+@keyframes circleFall5 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box6 {
     font-size: 1vw;
@@ -89,7 +134,15 @@ body{
     display: flex;
     align-items: center;
     margin-left: 20vw;
-    
+    animation: circleFall6 6s ease-out;
+}
+@keyframes circleFall6 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 .box7 {
     font-size: 1.4vw;
@@ -104,11 +157,20 @@ body{
     align-items: center;
     margin-left: 46vw;
     margin-top: 5vw;
+    animation: circleFall7 5s ease-out;
+}
+@keyframes circleFall7 {
+    0% {
+        transform: translateY(-200vw);
+    }
+    100% {
+        position: default;
+    }
 }
 a{
     font-size: 5vw;
     margin-left:90vw;
-    margin-top:-5vw;
+    margin-top:5vw;
     color: white;
     text-decoration: none;
     
