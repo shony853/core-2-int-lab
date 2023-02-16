@@ -17,12 +17,20 @@ p{
     border-radius: 50%;
     background-color: black;
     border: 1px solid white;
+    color: black;
     margin: 0 auto;
     margin-top: 10vw;
     padding: 5vw;
     text-align: center;
     align-items: center;
     position: relative;
+    filter: blur(2px);
+}
+.circle:hover {
+    filter:none;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
 }
 a{
     font-size: 5vw;
