@@ -1,23 +1,71 @@
 body {
     background-color: black;
-    color:black;
+    color: white;
     font-family: bilo, sans-serif;
     font-style: normal;
     font-weight: 100;
 }
-.block{
-    background-color: white;
+.circle{
+    border: 1px solid white;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100px;
+    height:100px;
+    margin:-50px;
+    border-radius:50%;
+    text-align:center;
+}
+.text{
+    background: white;
+    color: black;
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 1.8vw;
+    padding: 3.5vw;
+    text-align: center;
+    align-items: center;
+    display: none;
 }
-.no-block{
-    border: none;
+.circle:hover .text{
+    display: flex;
 }
+.circle1 {
+    transform:translate(251px)
+ }
+ 
+ .circle2 {
+    transform:rotate(46deg) translate(251px) rotate(-46deg);
+ }
+ 
+ .circle3 {
+    transform:rotate(91deg) translate(251px) rotate(-91deg);
+ }
+ 
+ .circle4 {
+    transform:rotate(136deg) translate(251px) rotate(-136deg);
+ }
+ 
+ .circle5 {
+    transform:rotate(181deg) translate(251px) rotate(-181deg);
+ }
+ 
+ .circle6 {
+    transform:rotate(226deg) translate(251px) rotate(-226deg);
+ }
+ 
+ .circle7 {
+    transform:rotate(271deg) translate(251px) rotate(-271deg);
+ }
+ 
+ .circle8 {
+    transform:rotate(316deg) translate(251px) rotate(-316deg);
+ }
 a{
     margin-left:90vw;
     color: white;
     text-decoration: none;
-    
-  }
-  a:hover {
-    font-size: 3vh;
+    font-size: 5vw;
   }
