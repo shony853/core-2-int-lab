@@ -50,10 +50,9 @@
   }
   .block{
     background: #eb54e1;
-    border-radius: 50% 50% 10% 50%;
+    border-radius: 50%;
     mix-blend-mode: multiply; 
-    filter: drop-shadow(15px 15px black);
-    transform: rotate(10deg);
+    filter: drop-shadow(10px 5px black);
     animation: changecolor 2s infinite alternate;
   }
   .no-block{
@@ -63,9 +62,11 @@
   @keyframes changecolor{
     0%{
       background-color:#7feb54;
+      border-radius: 15%;
     }
     100%{
       background-color:#eb54e1;
+      border-radius: 50%;
     }
   }
   
