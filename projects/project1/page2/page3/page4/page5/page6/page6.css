@@ -4,11 +4,184 @@ body{
     font-family: bilo, sans-serif;
     font-style: normal;
     font-weight: 100;
+    margin-left: 5vw;
 }
-a{
-    font-size: 5vw;
-    margin-left:90vw;
-    margin-top:-5vw;
-    color: white;
-    text-decoration: none;
-  }
+
+h1{
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+}
+p{
+    font-size: 1vw;
+}
+
+#zero {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 50vw;
+    margin-top: -1vw;
+    border-radius: 50%;
+    animation: blink1 2s infinite;
+}
+@keyframes blink1 {
+    from{background-color:grey}
+    to{background-color: white;}
+}
+#one {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 15vw; 
+    margin-top: 5vw;
+    border-radius: 50%;
+}
+#two {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 70vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink2 2s infinite;
+}
+@keyframes blink2 {
+    from{background-color:white;}
+    to{background-color: grey;}
+}
+#three {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 50vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+}
+#four {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 60vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink4 1.2s infinite;
+}
+@keyframes blink4 {
+    from{background-color:grey;}
+    to{background-color: white;}
+}
+#five {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 30vw;
+    margin-top: 7vw;
+    border-radius: 50%;
+    animation: blink5 2s infinite;
+}
+@keyframes blink5 {
+    from{background-color:white;}
+    to{background-color: grey;}
+}
+#six {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 80vw;
+    margin-top: -20vw;
+    border-radius: 50%;
+}
+#seven {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 25vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+}
+#eight {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink8 1s infinite;
+}
+@keyframes blink8 {
+    from{background-color:grey;}
+    to{background-color: white;}
+}
+#nine {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 90vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink9 1s infinite;
+}
+@keyframes blink9 {
+    from{background-color:grey;}
+    to{background-color: white;}
+}
+#ten {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 70vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+}
+#eleven {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 50vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink11 1.5s infinite;
+}
+@keyframes blink11 {
+    from{background-color:white;}
+    to{background-color: grey;}
+}
+#twelve {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink12 1s infinite;
+}
+@keyframes blink12 {
+    from{background-color:white;}
+    to{background-color: grey;}
+}
+#thirteen {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 90vw;
+    margin-top: 5vw;
+    border-radius: 50%;
+    animation: blink13 1.2s infinite;
+}
+@keyframes blink13 {
+    from{background-color:white;}
+    to{background-color: grey;}
+}
+#fourteen {
+    width:5pt;
+    height:5pt;
+    background-color: white;
+    margin-left: 65vw;
+    margin-top: -5vw;
+    border-radius: 50%;
+    animation: blink14 1.5s infinite;
+}
+@keyframes blink14 {
+    from{background-color:grey;}
+    to{background-color: white;}
+}

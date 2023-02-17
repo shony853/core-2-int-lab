@@ -32,15 +32,15 @@ body {
 }
 .circle:hover .text{
     display: flex;
+    animation-play-state: paused;
 }
 .circle1 {
-    transform:translate(251px)
+    transform:translate(251px);
+    animation: orbit1 10s linear infinite;
  }
- 
  .circle2 {
     transform:rotate(46deg) translate(251px) rotate(-46deg);
- }
- 
+ } 
  .circle3 {
     transform:rotate(91deg) translate(251px) rotate(-91deg);
  }
@@ -70,3 +70,7 @@ a{
     text-decoration: none;
     font-size: 5vw;
   }
+  @keyframes orbit1 {
+    from {transform: rotate(0deg) translateX(254px) rotate(0deg);}
+    to {transform: rotate(360deg) translateX(254px) rotate(-360deg);}
+ }
