@@ -1,7 +1,13 @@
 *{
     box-sizing: border-box;
   }
-  
+  .young{
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    display: grid;
+    margin: 10px;
+
+  }
   .y{
     width: 200px;
     height: 300px;
