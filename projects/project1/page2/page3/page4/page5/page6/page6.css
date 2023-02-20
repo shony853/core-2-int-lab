@@ -18,7 +18,7 @@ p{
     margin-left: 4vw;
 }
 
-#zero {
+.zero {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -31,7 +31,7 @@ p{
     from{background-color:grey}
     to{background-color: white;}
 }
-#one {
+.one {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -39,7 +39,7 @@ p{
     margin-top: 5vw;
     border-radius: 50%;
 }
-#two {
+.two {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -52,7 +52,7 @@ p{
     from{background-color:white;}
     to{background-color: grey;}
 }
-#three {
+.three {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -60,7 +60,7 @@ p{
     margin-top: 5vw;
     border-radius: 50%;
 }
-#four {
+.four {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -73,7 +73,7 @@ p{
     from{background-color:grey;}
     to{background-color: white;}
 }
-#five {
+.five {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -86,7 +86,7 @@ p{
     from{background-color:white;}
     to{background-color: grey;}
 }
-#six {
+.six {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -94,7 +94,7 @@ p{
     margin-top: -20vw;
     border-radius: 50%;
 }
-#seven {
+.seven {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -102,7 +102,7 @@ p{
     margin-top: 5vw;
     border-radius: 50%;
 }
-#eight {
+.eight {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -115,7 +115,7 @@ p{
     from{background-color:grey;}
     to{background-color: white;}
 }
-#nine {
+.nine {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -128,7 +128,7 @@ p{
     from{background-color:grey;}
     to{background-color: white;}
 }
-#ten {
+.ten {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -136,7 +136,7 @@ p{
     margin-top: 5vw;
     border-radius: 50%;
 }
-#eleven {
+.eleven {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -149,7 +149,7 @@ p{
     from{background-color:white;}
     to{background-color: grey;}
 }
-#twelve {
+.twelve {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -162,7 +162,7 @@ p{
     from{background-color:white;}
     to{background-color: grey;}
 }
-#thirteen {
+.thirteen {
     width:5pt;
     height:5pt;
     background-color: white;
@@ -175,7 +175,7 @@ p{
     from{background-color:white;}
     to{background-color: grey;}
 }
-#fourteen {
+.fourteen {
     width:5pt;
     height:5pt;
     background-color: white;
