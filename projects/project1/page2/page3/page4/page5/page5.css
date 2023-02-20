@@ -16,11 +16,11 @@ p{
     height: 20vw;
     border-radius: 50%;
     background-color: black;
-    border: .5pt solid white;
+    border: 1pt solid white;
     color: black;
     margin: 0 auto;
     margin-top: 10vw;
-    padding: 30pt;
+    padding: 5vw;
     text-align: center;
     align-items: center;
     position: relative;
