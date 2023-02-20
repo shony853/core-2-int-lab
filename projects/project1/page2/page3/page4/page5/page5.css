@@ -16,7 +16,7 @@ p{
     height: 20vw;
     border-radius: 50%;
     background-color: black;
-    border: 1px solid white;
+    border: 1vw solid white;
     color: black;
     margin: 0 auto;
     margin-top: 10vw;
@@ -24,7 +24,7 @@ p{
     text-align: center;
     align-items: center;
     position: relative;
-    filter: blur(2px);
+    filter: blur(2vw);
 }
 .circle:hover {
     filter:none;
