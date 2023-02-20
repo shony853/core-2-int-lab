@@ -16,13 +16,8 @@ main {
     font-size: 2vh;
     margin-top: 2vw;
   }
- 
-  section {
-    background: white;
-    padding: 1rem;
-  }
   
-  .box1 {
+  .back1 {
     font-size: .8vw;
     padding: 1.5vw;
     border-radius: 50%;
@@ -36,7 +31,8 @@ main {
     display: flex;
     margin-top: -2vw;
   }
-  .box2 {
+  
+  .back2 {
     font-size: .8vw;
     padding: 2vw;
     border-radius: 50%;
@@ -51,7 +47,7 @@ main {
     display: flex;
 
   }
-  .box3 {
+  .back3 {
     font-size: 1vw;
     padding: 4vw;
     border-radius: 50%;

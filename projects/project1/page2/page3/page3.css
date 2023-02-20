@@ -32,7 +32,9 @@ body {
 }
 .circle:hover .text{
     display: flex;
-    animation-play-state: paused;
+}
+.circle:hover {
+   animation-play-state: paused;
 }
 .circle1 {
     transform:translate(251px);
@@ -40,29 +42,36 @@ body {
  }
  .circle2 {
     transform:rotate(46deg) translate(251px) rotate(-46deg);
+    animation: orbit2 10s linear infinite;
  } 
  .circle3 {
     transform:rotate(91deg) translate(251px) rotate(-91deg);
+    animation: orbit3 10s linear infinite;
  }
  
  .circle4 {
     transform:rotate(136deg) translate(251px) rotate(-136deg);
+    animation: orbit4 10s linear infinite;
  }
  
  .circle5 {
     transform:rotate(181deg) translate(251px) rotate(-181deg);
+    animation: orbit5 10s linear infinite;
  }
  
  .circle6 {
     transform:rotate(226deg) translate(251px) rotate(-226deg);
+    animation: orbit6 10s linear infinite;
  }
  
  .circle7 {
     transform:rotate(271deg) translate(251px) rotate(-271deg);
+    animation: orbit7 10s linear infinite;
  }
  
  .circle8 {
     transform:rotate(316deg) translate(251px) rotate(-316deg);
+    animation: orbit8 10s linear infinite;
  }
 a{
     margin-left:90vw;
@@ -73,4 +82,32 @@ a{
   @keyframes orbit1 {
     from {transform: rotate(0deg) translateX(254px) rotate(0deg);}
     to {transform: rotate(360deg) translateX(254px) rotate(-360deg);}
+ }
+   @keyframes orbit2 {
+    from {transform: rotate(45deg) translateX(254px) rotate(-45deg);}
+    to {transform: rotate(405deg) translateX(254px) rotate(-405deg);}
+ }
+    @keyframes orbit3 {
+    from {transform: rotate(90deg) translateX(254px) rotate(-90deg);}
+    to {transform: rotate(450deg) translateX(254px) rotate(-450deg);}
+ }
+     @keyframes orbit4 {
+    from {transform: rotate(135deg) translateX(254px) rotate(-135deg);}
+    to {transform: rotate(495deg) translateX(254px) rotate(-495deg);}
+ }
+     @keyframes orbit5 {
+    from {transform: rotate(180deg) translateX(254px) rotate(-180deg);}
+    to {transform: rotate(540deg) translateX(254px) rotate(-540deg);}
+ }
+     @keyframes orbit6 {
+    from {transform: rotate(225deg) translateX(254px) rotate(-225deg);}
+    to {transform: rotate(585deg) translateX(254px) rotate(-585deg);}
+ }
+     @keyframes orbit7 {
+    from {transform: rotate(270deg) translateX(254px) rotate(-270deg);}
+    to {transform: rotate(630deg) translateX(254px) rotate(-630deg);}
+ }
+     @keyframes orbit8 {
+    from {transform: rotate(315deg) translateX(254px) rotate(-315deg);}
+    to {transform: rotate(675deg) translateX(254px) rotate(-675deg);}
  }
