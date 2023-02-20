@@ -188,7 +188,7 @@ p {
         display: flex;
     }
     p{
-        font-size: 5pt;
-        margin-left: 5pt;
+        font-size: 4vw;
+        margin-left: 3vw;
     }
 }
