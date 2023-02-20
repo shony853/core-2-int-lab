@@ -24,7 +24,7 @@ p{
     text-align: center;
     align-items: center;
     position: relative;
-    filter: blur(2vw);
+    filter: blur(2pt);
 }
 .circle:hover {
     filter:none;
