@@ -6,8 +6,8 @@ p {
     font-family: bilo, sans-serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 5vw;
-    margin-left: 4vw;
+    font-size: 25pt;
+    margin-left: 40pt;
 }
 
 .zero {
@@ -186,5 +186,9 @@ p {
 @media only screen and (max-width: 500px) {
     .show {
         display: flex;
+    }
+    p{
+        font-size: 10pt;
+        margin-left: 15pt;
     }
 }
