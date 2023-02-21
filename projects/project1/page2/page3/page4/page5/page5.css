@@ -21,7 +21,7 @@ body{
     width:430px;
     height:400px;
     margin: 0 auto;
-    margin-top: 20vw;
+    top: 50%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
@@ -55,10 +55,9 @@ body{
     align-items:center;
     transform: rotateY(180deg);
   }
- 
   
 a{
-    font-size: 5vw;
+    font-size: ;
     margin-left:90vw;
     margin-top:-5vw;
     color: white;
