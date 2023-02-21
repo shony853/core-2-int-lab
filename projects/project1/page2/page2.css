@@ -19,7 +19,7 @@ main {
 
   .back1 {
     font-size: .8vw;
-    padding: 1.5vw;
+    padding: 2vw;
     border-radius: 50%;
     background-color: black;
     border: 1pt solid white;
@@ -36,7 +36,7 @@ main {
   
   .back2 {
     font-size: .8vw;
-    padding: 2vw;
+    padding: 3vw;
     border-radius: 50%;
     background-color: black;
     border: 1pt solid white;
@@ -53,7 +53,7 @@ main {
   }
   .back3 {
     font-size: 1vw;
-    padding: 4vw;
+    padding: 5vw;
     border-radius: 50%;
     background-color: black;
     border: 1pt solid white;
@@ -90,4 +90,81 @@ main {
     transition: 0.3s;
     background-color: black;
     color: white;
+}
+
+@media only screen and (max-width: 500px){
+  .back1 {
+    font-size: 1vw;
+    padding: 5vw;
+    border-radius: 50%;
+    background-color: black;
+    border: 1pt solid white;
+    width:15vw;
+    height: 15vw;
+    color:black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4vw;
+    align-items: center;
+    display: flex;
+    filter: blur(1pt);
+  }
+  
+  .back2 {
+    font-size: 1.2vw;
+    padding: 10vw;
+    border-radius: 50%;
+    background-color: black;
+    border: 1pt solid white;
+    width:24vw;
+    height: 24vw;
+    color:black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10vw;
+    align-items: center;
+    display: flex;
+    filter: blur(1.5pt);
+
+  }
+  .back3 {
+    font-size: 1.2vw;
+    padding: 9vw;
+    border-radius: 50%;
+    background-color: black;
+    border: 1pt solid white;
+    width:40vw;
+    height: 40vw;
+    color:black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10vw;
+    align-items: center;
+    display: flex;
+    filter: blur(1pt);
+  }
+  a{
+    margin-left:90vw;
+    color: white;
+    text-decoration: none;
+    font-size: 5vw;
+  }
+  .back1:hover {
+    filter:none;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+  .back2:hover {
+    filter:none;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+  .back3:hover {
+    filter:none;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
 }
