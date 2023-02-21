@@ -95,7 +95,7 @@ main {
 @media only screen and (max-width: 500px){
   .back1 {
     font-size: 1vw;
-    padding: 5vw;
+    padding: 6vw;
     border-radius: 50%;
     background-color: black;
     border: 1pt solid white;
@@ -112,7 +112,7 @@ main {
   
   .back2 {
     font-size: 1.2vw;
-    padding: 10vw;
+    padding: 11vw;
     border-radius: 50%;
     background-color: black;
     border: 1pt solid white;
