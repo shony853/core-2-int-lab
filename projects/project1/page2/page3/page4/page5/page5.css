@@ -8,68 +8,54 @@ body{
   p{
       font-style: italic;
       font-weight: 700;
-      font-size: .7vw;
+      font-size: 10pt;
+      line-height: 8pt;
   }
   .flip-container {
     perspective: 1000px;
-    margin-left: 50%
+  
   }
   .flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
     position: relative;
+    text-align: center;
+    width:430px;
+    height:400px;
+    margin: 0 auto;
+    margin-top: 20vw;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
   
-  .flip-container:hover .flipper,.flip-container.hover .flipper {
+  .flip-container:hover .flipper{
     transform: rotateY(180deg);
-  }
-  
-  .flip-container,.front,.back {
-    width: 15vw;
-    height: 15vw;
   }
   
   .front,.back {
-    backface-visibility: hidden;
-    width:15vw;
-    height:15vw;
-    border-radius: 50%;
     position: absolute;
-    font-size:.8vw;
-    background: white;
-    color: black;
-    padding:1.5vw;
-    text-align:center;
-    align-items:center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -3vw;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   
   .front {
-    z-index: 2;
-    transform: rotateY(0deg);
     background: radial-gradient(circle at 65% 15%, white 1px, white 3%, gray 60%, #E2E2E2 100%); 
-    width:15vw;
-    height:15vw;
-    border-radius: 50%;
+   
   }
   
   .back {
+    font-size:11px;
+    background: white;
+    color: black;
+    padding:1vw;
+    text-align:center;
+    align-items:center;
     transform: rotateY(180deg);
   }
-  .vertical.flip-container {
-    position: relative;
-  }
-  
-  .vertical .back {
-    transform: rotateX(180deg);
-  }
-  
-  .vertical.flip-container .flipper {
-    transform-origin: 100% 7.5vw; 
-  }
-  
-  .vertical.flip-container:hover .flipper {
-    transform: rotateX(-180deg);
-  }
+ 
   
 a{
     font-size: 5vw;
