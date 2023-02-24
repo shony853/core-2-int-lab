@@ -1,5 +1,5 @@
 .emoji {
-    width: 30vw;
+    width: 28vw;
     height: 30vw;
     display: grid;
     grid-template-columns: repeat(17, 1fr);
