@@ -1,0 +1,21 @@
+.emoji {
+    width: 30vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: 0 auto;
+    margin-top: 10vw;
+}
+.yellow{
+    background-color: #fcd628;
+}
+.brown{
+    background-color: #572f27;
+}
+.white{
+    background-color: white;
+}
+.none{
+    background-color: none;
+}
