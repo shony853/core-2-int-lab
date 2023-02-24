@@ -1,0 +1,60 @@
+.container {
+    
+    height: 90vw;
+    width: 65vw;
+    display: flex;
+    background-color: darkolivegreen;
+    border: 20px solid #401401;
+}
+.grid{
+    width: 50vw;
+    height: 50vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1vw;
+    margin: 0 auto;
+    margin-top: 7vw;
+    
+}
+
+.orange {
+background-color: crimson;
+}
+.left-bottom {
+background-color: cornsilk;
+border-radius: 0% 0% 0% 50% ;
+}
+.facing-sides{
+background-color: cornsilk;
+border-radius: 0% 45% 0% 45%;
+}
+.drop {
+background-color: cornsilk;
+border-radius: 50% 50% 0% 50%;
+}
+.circle {
+background-color:cornsilk;
+border-radius: 50% 50% 50% 50%;
+}
+.square {
+background-color: cornsilk;
+}
+.text {
+font-family: 'Nunito', sans-serif;
+font-weight: 600;
+font-size: 3vw;
+text-align: right;
+width: 55vw;
+height: 30px;
+color:#401401;
+position: absolute;
+top: 70vw; 
+left: 10vw;
+}
+.bauhaus {
+border-bottom: 3px solid #401401;
+color: crimson;
+font-size: 8vw;
+margin-top: -2vw;
+}
