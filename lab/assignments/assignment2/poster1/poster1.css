@@ -1,0 +1,60 @@
+.container {
+    
+        height: 90vw;
+        width: 65vw;
+        display: flex;
+        background-color: antiquewhite;
+        border: 20px solid black;
+}
+ .grid{
+        width: 50vw;
+        height: 50vw;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 1vw;
+        margin: 0 auto;
+        margin-top: 7vw;
+        
+    }
+
+.orange {
+    background-color: orangered;
+}
+.left-bottom {
+    background-color: darkcyan;
+    border-radius: 0% 0% 0% 50% ;
+}
+.facing-sides{
+    background-color: darkcyan;
+    border-radius: 0% 45% 0% 45%;
+}
+.drop {
+    background-color: darkcyan;
+    border-radius: 50% 50% 0% 50%;
+}
+.circle {
+    background-color: darkcyan;
+    border-radius: 50% 50% 50% 50%;
+}
+.square {
+    background-color: darkcyan;
+}
+.text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: right;
+    width: 55vw;
+    height: 30px;
+    color: black;
+    position: absolute;
+    top: 70vw; 
+    left: 10vw;
+}
+.bauhaus {
+    border-bottom: 3px solid black;
+    color: orangered;
+    font-size: 8vw;
+    margin-top: -2vw;
+}
