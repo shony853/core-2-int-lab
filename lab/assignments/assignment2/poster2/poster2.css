@@ -1,20 +1,20 @@
 .container {
     
-    height: 90vw;
-    width: 65vw;
+    height: 40vw;
+    width: 28vw;
     display: flex;
     background-color: aliceblue;
     border: 20px solid black;
 }
 .grid{
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 20vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 1vw;
+    gap: .5vw;
     margin: 0 auto;
-    margin-top: 7vw;
+    margin-top: 3vw;
     
 }
 
@@ -22,39 +22,39 @@
 background-color: magenta;
 }
 .left-bottom {
-background-color: green;
+background-color: darkgreen;
 border-radius: 0% 0% 0% 50% ;
 }
 .facing-sides{
-background-color: green;
+background-color: darkgreen;
 border-radius: 0% 45% 0% 45%;
 }
 .drop {
-background-color: green;
+background-color: darkgreen;
 border-radius: 50% 50% 0% 50%;
 }
 .circle {
-background-color: green;
+background-color: darkgreen;
 border-radius: 50% 50% 50% 50%;
 }
 .square {
-background-color: green;
+background-color: darkgreen;
 }
 .text {
 font-family: 'Comfortaa', cursive;
 font-weight: 600;
-font-size: 3vw;
+font-size: 2vw;
 text-align: right;
-width: 55vw;
-height: 30px;
+width: 25vw;
+height: 5vw;
 color: black;
 position: absolute;
-top: 70vw; 
-left: 10vw;
+top: 30vw; 
+left: 5vw;
 }
 .bauhaus {
 border-bottom: 3px solid black;
 color: magenta;
-font-size: 8vw;
-margin-top: -2vw;
+font-size: 4vw;
+
 }
