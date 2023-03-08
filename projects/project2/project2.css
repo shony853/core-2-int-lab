@@ -5,6 +5,19 @@ body{
 h1{
     text-align: center;
     margin-top: 20vw;
-    margin-bottom: 50vw;
+    margin-bottom: 40vw;
     font-size: 10vw;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    font-size: 3vw;
+    
+}
+.box{
+    border-radius: 100px;
+    width:15vw;
+    height:5vh;
+    border: 1px solid rgb(208, 253, 196);
 }

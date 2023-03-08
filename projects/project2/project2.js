@@ -17,7 +17,7 @@ function processData( data ){
   data.forEach( function(item, index){
     console.log(item, index);
     let newItem = document.createElement("div");
-    newItem.classList.add("icon");
+    newItem.classList.add("name");
     newItem.classList.add(item.categorykey);
     // newItem.style.cssText = `font-size: ${usage}px`;
     newItem.innerHTML = `
