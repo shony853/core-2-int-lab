@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Inflorescence",
+    "owner": "Jenna",
+    "type": "Eau de Parfum",
+    "brand": "Byredo",
+    "year": 2013,
+    "notes": "Pink Freesia\nRose\nLily-of-the-Valley\nMagnolia\nJasmine"
+  },
+  {
+    "name": "Lust",
+    "owner": "Jenna",
+    "type": "Gorilla Perfume",
+    "brand": "Lush",
+    "year": 2010,
+    "notes": "Jasmine\nYlang-Ylang\nSandalwood\nVanille\nRose"
+  },
+  {
+    "name": "Bloom",
+    "owner": "Jenna",
+    "type": "Eau de Toilette",
+    "brand": "Gucci",
+    "year": 2017,
+    "notes": "Neroli\nBergamot\nMandarin Orange\nLemon\nTuberose\nJasmine\nOrange Blossom\nRangoon Creeper\nMusk\nSandalwood"
+  },
+  {
+    "name": "Twilight",
+    "owner": "Jenna",
+    "type": "Body Spray",
+    "brand": "Lush",
+    "year": 2017,
+    "notes": "Lavender\nTonka Bean\nBenzoin\nYlang-Ylang"
+  },
+  {
+    "name": "Wood Sage & Sea Salt",
+    "owner": "Jenna",
+    "type": "Cologne",
+    "brand": "Jo Malone",
+    "year": 2014,
+    "notes": "Sea Salt\nSage\nGrapefruit\nAmbrette\nSeaweed"
+  },
+  {
+    "name": "Original Vetiver",
+    "owner": "Lucy",
+    "type": "Eau de Parfum",
+    "brand": "Creed",
+    "year": 2004,
+    "notes": "Bergamot\nGinger\nMandarin Orange\nHaitian Vetiver\nSandalwood\nIris\nMusk\nAmbergris"
+  },
+  {
+    "name": "Baccarat Rouge 540",
+    "owner": "Lucy",
+    "type": "Extrait de Parfum",
+    "brand": "Maison Francis Kurkdjian",
+    "year": 2017,
+    "notes": "Bitter Almond\nSaffron\nEgyptian Jasmine\nCedar\nAmbergris\nWoody Notes\nMusk"
+  },
+  {
+    "name": "Lait de Coco",
+    "owner": "Lucy",
+    "type": "Eau de Parfum",
+    "brand": "Urban Outfitters",
+    "year": 2016,
+    "notes": "Coconut\nVanilla\nPraline\nBergamot"
+  },
+  {
+    "name": "Aventus",
+    "owner": "Lucy",
+    "type": "Eau de Parfum",
+    "brand": "Creed",
+    "year": 2010,
+    "notes": "Pineapple\nBergamot\nBlack Currant\nApple\nBirch\nPatchouli\nMoroccan Jasmine\nRose\nMusk\nOakmoss\nAmbergris\nVanille"
+  },
+  {
+    "name": "No.5",
+    "owner": "Lucy",
+    "type": "Eau de Parfum",
+    "brand": "Chanel",
+    "year": 1986,
+    "notes": "Aldehydes\nYlang-Ylang\nNeroli\nBergamot\nPeach\nIris\nJasmine\nRose\nLily-of-the-Valley\nSandalwood\nVanilla\nOakmoss\nVetiver\nPatchouli"
+  },
+  {
+    "name": "The Matcha 26",
+    "owner": "Emily",
+    "type": "Eau de Parfum",
+    "brand": "Le Labo",
+    "year": 2021,
+    "notes": "Fig\nMatcha Tea\nCedar\nBitter Orange\nVetiver"
+  },
+  {
+    "name": "Studied",
+    "owner": "Emily",
+    "type": "Eau de Parfum",
+    "brand": "Liis",
+    "year": 2021,
+    "notes": "Pear\nAmbrette\nCarrot\nIris\nCashmeran\nAmbroxan"
+  },
+  {
+    "name": "Orphéon",
+    "owner": "Emily",
+    "type": "Eau de Parfum",
+    "brand": "Diptyque",
+    "year": 2021,
+    "notes": "Juniper Berries\nJasmine\nPowdery Notes\nCedar\nTonka Bean"
+  },
+  {
+    "name": "Light Blue",
+    "owner": "Emily",
+    "type": "Eau de Toilette",
+    "brand": "Dolce&Gabbana",
+    "year": 2001,
+    "notes": "Sicilian Lemon\nApple\nCedar\nBellflower\nBamboo\nJasmine\nWhite Rose\nCedar\nMusk\nAmber"
+  },
+  {
+    "name": "Floating",
+    "owner": "Emily",
+    "type": "Eau de Parfum",
+    "brand": "Liis",
+    "year": 2022,
+    "notes": "Linen\nPeach\nBergamot\nWild Orchid\nSequoia"
+  },
+  {
+    "name": "The Noir 29",
+    "owner": "Geena",
+    "type": "Eau de Parfum",
+    "brand": "Le Labo",
+    "year": 2015,
+    "notes": "Fig\nBay Leaf\nBergamot\nCedar\nVetiver\nMusk\nTobacco\nHay"
+  },
+  {
+    "name": "Eau Rose",
+    "owner": "Geena",
+    "type": "Eau de Parfum",
+    "brand": "Diptyque",
+    "year": 2012,
+    "notes": "Lychee\nBlack Currant\nBergamot\nRose\nGeranium\nJasmine\nMusk\nWhite Honey\nVirginia Cedar"
+  },
+  {
+    "name": "Bombshell",
+    "owner": "Geena",
+    "type": "Eau de Parfum",
+    "brand": "Victoria's Secret",
+    "year": 2010,
+    "notes": "Passionfruit\nGrapefruit\nPineapple\nTangerine\nBig Strawberry\nPeony\nVanilla Orchid\nRed Berries\nJasmine\nLily-of-the-Valley\nMusk\nWoody Notes\nOakmoss"
+  },
+  {
+    "name": "Jolie Fleur Verte",
+    "owner": "Geena",
+    "type": "Eau de Parfum",
+    "brand": "Tory Burch",
+    "year": 2015,
+    "notes": "Lily-of-the-Valley\nGreen Notes\nMandarin Orange\nNeroli\nJasmine\nMusk\nCedar\nSandalwood"
+  },
+  {
+    "name": "Cherry Blossom",
+    "owner": "Geena",
+    "type": "Eau de Toilette Intense",
+    "brand": "L'Occitane en Provence",
+    "year": 2016,
+    "notes": "Cherry\nCassis\nFreesia\nCherry Blossom\nLily-of-the-Valley\nPalisander Rosewood\nMusk\nAmber"
+  },
+  {
+    "name": "Gypsy Water",
+    "owner": "Seyoung",
+    "type": "Eau de Parfum",
+    "brand": "Byredo",
+    "year": 2008,
+    "notes": "Juniper\nLemon\nBergamot\nPepper\nPine needles\nIncense\nOrris Root\nVanilla\nSandalwood\nAmber"
+  },
+  {
+    "name": "Tacit",
+    "owner": "Seyoung",
+    "type": "Eau de Parfum",
+    "brand": "Aesop",
+    "year": 2015,
+    "notes": "Yuzu\nCitruses\nBasil\nVetiver\nCloves"
+  },
+  {
+    "name": "Dirty",
+    "owner": "Seyoung",
+    "type": "Body Spray",
+    "brand": "Lush",
+    "year": 2011,
+    "notes": "Mint\nTarragon\nLavender\nThyme\nOakmoss\nSandalwood\nNeroli"
+  },
+  {
+    "name": "Lime Basil & Mandarin",
+    "owner": "Seyoung",
+    "type": "Cologne",
+    "brand": "Jo Malone",
+    "year": 1999,
+    "notes": "Lime\nMandarin Orange\nBergamot\nBasil\nThyme\nLilac\nIris\nVetiver\nPatchouli"
+  },
+  {
+    "name": "English Oak & Hazelnut",
+    "owner": "Seyoung",
+    "type": "Cologne",
+    "brand": "Jo Malone",
+    "year": 2017,
+    "notes": "Cedarwood\nRoasted Oak\nElemi Resin\nVetiver\nMoss"
+  }
+]
