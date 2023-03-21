@@ -20,3 +20,14 @@ a {
     color: #d1cfcf;
 }
 
+@media only screen and (max-width: 480px){
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+
+
