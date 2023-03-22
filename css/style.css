@@ -65,10 +65,14 @@ h2 {
         gap: 1rem;
     }
     h2{
-        margin-top: 10vh;
+        margin-top: 8vh;
         width: 100vw;
     }
     a {
         line-height: 5vh;
     }
+    a:hover{
+        font-size: larger;
+    }
+
 }
