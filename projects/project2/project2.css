@@ -128,8 +128,13 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.active .details .text{
+    margin-top: 10vw;
+}
 img{
     width: 100%;
+    margin-left: 5vw;
+    margin-top: 10vw;
 } 
 .jenna {
     font-family: "afronaut", sans-serif;

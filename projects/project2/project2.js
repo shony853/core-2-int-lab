@@ -27,12 +27,12 @@ function processData( data ){
       <div class="details">
         <div class="image"><img src="assets/images/${item.img}.png"></div>
         <div class="text">
-        <div class="name"><span class="name">${item.name}</span></div>
-        <div class="owner">Owned by: ${item.owner}</div>
-        <div class="type">Type: ${item.type}</div>
-        <div class="brand">Brand: ${item.brand}</div>
-        <div class="year">Year of Release: ${item.year}</div>
-        <div class="year">Notes: ${item.notes.replaceAll("\n", "<br>")}</div>
+          <div class="name"><span class="name">${item.name}</span></div>
+          <div class="owner">Owned by: ${item.owner}</div>
+          <div class="type">Type: ${item.type}</div>
+          <div class="brand">Brand: ${item.brand}</div>
+          <div class="year">Year of Release: ${item.year}</div>
+          <div class="year">Notes: ${item.notes.replaceAll("\n", "<br>")}</div>
         </div>
       </div>`;
     container.appendChild(newItem);    
