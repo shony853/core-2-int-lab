@@ -25,16 +25,24 @@ function processData( data ){
     newItem.innerHTML = `
       <div class="name">${item.name}</div>
       <div class="details">
-        <div class="image"><img src="assets/images/${item.img}.png"></div>
+        <div class="image">
+          <img src="assets/images/${item.img}.png">
+        </div>
+        <div class="info">
         <div class="text">
-          <div class="name"><span class="name">${item.name}</span></div>
-          <div class="owner">Owned by: ${item.owner}</div>
-          <div class="type">Type: ${item.type}</div>
-          <div class="brand">Brand: ${item.brand}</div>
-          <div class="year">Year of Release: ${item.year}</div>
-          <div class="year">Notes: ${item.notes.replaceAll("\n", "<br>")}</div>
+            <div class="name"><span class="name">${item.name}</span></div>
+            <div class="owner"><span class="label">Owned by: </span> ${item.owner}</div>
+            <div class="type"><span class="label">Type: </span> ${item.type}</div>
+            <div class="brand"><span class="label">Brand: </span> ${item.brand}</div>
+            <div class="year"><span class="label">Year of Release: </span> ${item.year}</div>
+          </div>
+          <div class="notes">
+            <div class="year"><span class="label">Notes: </span>${item.notes.replaceAll("\n", "<br>")}</div>
+          </div>
         </div>
       </div>`;
+       
+
     container.appendChild(newItem);    
     
     newItem.addEventListener('click', function(){
