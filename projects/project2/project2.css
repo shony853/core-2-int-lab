@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(128, 128, 128);
     color: rgb(208, 253, 196);
     font-family: "new-order", sans-serif;
     font-weight: 500;
@@ -39,7 +39,7 @@ h3{
     text-align: center;
     font-size: 3vw;
     justify-items: center;
-    color:rgb(170, 170, 170);
+    color: rgb(128, 128, 128);
     margin-left: 1vw;
 }
 .box{
@@ -116,7 +116,7 @@ h3{
     top: 0;
     left: 0;
     justify-items: center;
-    background-color:rgb(170, 170, 170);
+    background-color: rgb(128, 128, 128);
     color:rgb(208, 253, 196);
     display: none;
 }
