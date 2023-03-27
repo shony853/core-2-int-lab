@@ -17,7 +17,7 @@ h1{
     padding-bottom: 1vw;
 }
 p{
-    margin-top: -5vw;
+    margin-top: -4.5vw;
     text-align: right;
     margin-right: 2vw;
     margin-bottom: 5vw;
@@ -48,41 +48,41 @@ h3{
     height: auto;
     background-color:  rgb(208, 253, 196);
     padding: 4vw;
-    padding-top: .5vw;
-    padding-bottom:.5vw;
+    padding-top: 8px;
+    padding-bottom:8px;
 }
 .jenna1{
     font-family: "afronaut", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: .7vw;
+    padding-top: .6vw;
 }
 .seyoung1{
     font-family: "pilsner", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 3vw;
-    padding-top: .5vw;
+    padding-top: .4vw;
 }
 .lucy1{
     font-family: "tomasa", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1.2vw;
+    padding-top: 1vw;
 }
 .geena1{
     font-family: "meatball", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3vw;
-    padding-top: 1vw;
+    padding-top: .8vw;
 }
 .emily1{
     font-family: "los-feliz", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3vw;
-    padding-top: .7vw;
+    padding-top: .6vw;
 }
 
 
@@ -91,7 +91,7 @@ h3{
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 2vw;
-    font-size: 2vw;
+    font-size: 35px;
     margin-left: 1vw;
 }
 
@@ -99,8 +99,8 @@ h3{
     border-radius: 100px;
     border: 2px solid rgb(208, 253, 196);
     padding: 3vw;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
    
 
 }
@@ -121,18 +121,23 @@ h3{
     display: none;
 }
 .active .label {
-    font-size: 12px;
+    font-size: 18px;
     font-family: "new-order", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     display: flex;
-    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(208, 253, 196);
+   /* border: 2px solid rgb(208, 253, 196);
+    border-radius: 100px; */
+    width:fit-content;
+    padding: 10px;
+    margin-top: 20px;
 
 }
 .active .name {
     font-weight: 600;
     font-size: 80px;
-    margin-bottom: 2vw;
+    margin-bottom: 20px;
     margin-top: 150px;
     line-height: 85px;
     width: 500px;
@@ -141,15 +146,15 @@ h3{
 .active .details{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 
 }
+
 .active .details .info .text{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 3vw;
     margin-right: 3vw;
     border-top: 2px solid rgb(208, 253, 196);
-    padding-top: 7vw;
+    padding-top: 3vw;
     padding-bottom: 2vw;
 }
 .active .details .info .text .withoutnotes{
@@ -161,7 +166,7 @@ img{
     margin-left: 40px;
     margin-top: 150px;
     border: 2px solid rgb(208, 253, 196);
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 100px;
     margin-left: 7vw;
 } 
 .jenna {

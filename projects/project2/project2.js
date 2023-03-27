@@ -32,13 +32,13 @@ function processData( data ){
           <div class="name"><span class="name">${item.name}</span></div>
           <div class="text">
             <div class="withoutnotes">
-              <div class="owner"><span class="label">Owned by: </span> ${item.owner}</div>
-              <div class="type"><span class="label">Type: </span> ${item.type}</div>
-              <div class="brand"><span class="label">Brand: </span> ${item.brand}</div>
-              <div class="year"><span class="label">Year of Release: </span> ${item.year}</div>
+              <div class="owner"><span class="label">Owned by </span> ${item.owner}</div>
+              <div class="type"><span class="label">Type </span> ${item.type}</div>
+              <div class="brand"><span class="label">Brand </span> ${item.brand}</div>
+              <div class="year"><span class="label">Year of Release </span> ${item.year}</div>
             </div>
             <div class="notes">
-              <div class="notes"><span class="label">Notes: </span>${item.notes.replaceAll("\n", "<br>")}</div>
+              <div class="notes"><span class="label">Notes </span>${item.notes.replaceAll("\n", "<br>")}</div>
             </div>
           </div>
       </div>`;
