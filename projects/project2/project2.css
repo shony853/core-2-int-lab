@@ -140,7 +140,7 @@ h3{
     margin-bottom: 20px;
     margin-top: 150px;
     line-height: 85px;
-    width: 500px;
+    width: 900px;
 }
 
 .active .details{
@@ -151,7 +151,7 @@ h3{
 .active .details .info .text{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 3vw;
+    gap: 30px;
     margin-right: 3vw;
     border-top: 2px solid rgb(208, 253, 196);
     padding-top: 3vw;
@@ -163,11 +163,10 @@ h3{
 img{
     width: 500px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 150px;
     border: 2px solid rgb(208, 253, 196);
     border-radius: 100px;
-    margin-left: 7vw;
 } 
 .jenna {
     font-family: "afronaut", sans-serif;

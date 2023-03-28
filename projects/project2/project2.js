@@ -29,7 +29,7 @@ function processData( data ){
           <img src="assets/images/${item.img}.png">
         </div>
         <div class="info">
-          <div class="name"><span class="name">${item.name}</span></div>
+          <div class="name"><span class="name">${item.name.replaceAll("\n", "<br>")}</span></div>
           <div class="text">
             <div class="withoutnotes">
               <div class="owner"><span class="label">Owned by </span> ${item.owner}</div>
