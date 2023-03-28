@@ -41,10 +41,7 @@ function processData( data ){
               <div class="notes"><span class="label">Notes </span>${item.notes.replaceAll("\n", "<br>")}</div>
             </div>
           </div>
-          <h3> 
-          Designed by Jenna Shon <br> 
-          Parsons School of Design 2023
-          </h3>
+      
       </div>`;
     
      
