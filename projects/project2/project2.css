@@ -81,8 +81,8 @@ h3{
     .people {
         display: flex;
         font-size: 20px;
-        justify-content: center;
         gap: 5px;
+        overflow-x: scroll;
     }
     .box {
         padding: 40px;
@@ -228,6 +228,33 @@ h3{
     line-height: 85px;
     width: 900px;
 }
+@media only screen and (max-width: 500px){
+    .active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+        padding-left: 0;
+    }
+    .details {
+        position: static;
+    }
+    .active .name {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 45px;
+        line-height: 45px;
+        text-align: center;
+        margin-left: -1.5vw;
+        margin-bottom: 10px;
+    }
+    .active .title {
+        display: none;
+    }
+    .active .label {
+        margin-bottom: 7px;
+    }
+}
 
 .active .details{
     display: grid;
@@ -236,6 +263,8 @@ h3{
 @media only screen and (max-width: 500px){
     .active .details{
         grid-template-columns: 1fr;
+        padding-left: 2vw;
+        height: fit-content;
     }
 }
 
@@ -248,6 +277,11 @@ h3{
     padding-top: 3vw;
     padding-bottom: 2vw;
 }
+@media only screen and (max-width: 500px){
+    .text{
+        grid-template-columns: 1fr;
+    }
+}
 .active .details .info .text .withoutnotes{
     padding-bottom: 20px;
 }
@@ -259,6 +293,12 @@ img{
     border: 2px solid rgb(208, 253, 196);
     border-radius: 100px;
 } 
+@media only screen and (max-width: 500px){
+    img {
+        width: 60%;
+        margin-top: 10vw;
+    }
+}
 .jenna {
     font-family: "afronaut", sans-serif;
     font-weight: 400;

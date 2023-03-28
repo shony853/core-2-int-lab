@@ -23,7 +23,7 @@ function processData( data ){
 
     // newItem.style.cssText = `font-size: ${usage}px`;
     newItem.innerHTML = `
-      <div class="name">${item.name}</div>
+      <div class="name title">${item.name}</div>
       <div class="details">
         <div class="image">
           <img src="assets/images/${item.img}.png">
