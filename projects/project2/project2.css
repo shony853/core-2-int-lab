@@ -16,6 +16,12 @@ h1{
     border-bottom: 2px solid rgb(208, 253, 196);
     padding-bottom: 1vw;
 }
+@media (max-width: 600px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
 p{
     margin-top: -4.5vw;
     text-align: right;
@@ -98,18 +104,23 @@ h3{
 @media (max-width: 600px){
     #container{
         margin-top: 30px;
+        font-size: 60px;
     }
 }
 
 .fragrance{
     border-radius: 100px;
     border: 2px solid rgb(208, 253, 196);
-    padding: 30px;
+    padding: 45px;
     padding-top: 25px;
     padding-bottom: 25px;
-   
-
 }
+@media (max-width: 600px){
+    .fragrance{
+        padding: 70px;
+    }
+}
+
 .fragrance .jenna{
     font-family: "afronaut", sans-serif;
     font-weight: 400;
