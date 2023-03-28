@@ -20,6 +20,10 @@ h1{
     h1 {
         font-size: 50px;
         justify-content: center;
+        border-bottom: 1.5px solid rgb(208, 253, 196);
+        padding-bottom: 10px;
+        margin-left: 23px;
+        width:fit-content;
     }
 }
 p{
@@ -33,8 +37,10 @@ p{
 }
 @media only screen and (max-width: 500px){
     p {
-        text-align: left;
+        text-align: center;
         justify-content: center;
+        font-size: 15px;
+        margin-top: 10px;
     }
 }
 h3{
@@ -45,6 +51,14 @@ h3{
     padding-left: 2vw;
     padding-top: 1vw;
 }
+@media only screen and (max-width:500px){
+    h3 {
+        font-size: 10px;
+        text-align: center;
+        border-top: 1.5px solid rgb(208, 253, 196);
+        padding-top: 5px;
+    }
+}
 .people{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -52,16 +66,29 @@ h3{
     font-size: 3vw;
     justify-items: center;
     color: rgb(128, 128, 128);
-    
+
 }
 .box{
     border-radius: 100px;
     width: 10vw;
     height: auto;
-    background-color:  rgb(208, 253, 196);
+    background-color: rgb(208, 253, 196);
     padding: 4vw;
     padding-top: 8px;
     padding-bottom:8px;
+}
+@media only screen and (max-width: 500px){
+    .people {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        gap: 5px;
+    }
+    .box {
+        padding: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px; 
+    }
 }
 .jenna1{
     font-family: "afronaut", sans-serif;
@@ -96,6 +123,37 @@ h3{
     font-size: 3vw;
     padding-top: .6vw;
 }
+@media only screen and (max-width:500px){
+    .jenna1{
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 45px;
+    }
+    .seyoung1{
+        padding-top: 10px;
+        font-size: 23px;
+        padding-left: 18px;
+        padding-right: 55px;
+    }
+    .lucy1{
+        padding-top: 15px;
+        font-size: 22px;
+        padding-left: 30px;
+    }
+    .geena1{
+        padding-top: 13px;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 45px;
+        justify-content: center;
+        justify-items: center;
+    }
+    .emily1{
+        padding-top: 12px;
+        font-size: 20px;
+        padding-left: 32px;
+    }
+}
 
 
 #container {
@@ -109,21 +167,25 @@ h3{
 
 @media only screen and (max-width: 500px){
     #container{
-        margin-top: 30px;
-        font-size: 60px;
+        margin-top: 20px;
+        font-size: 20px;
+        gap: 13px;
+
     }
 }
 
 .fragrance{
     border-radius: 100px;
     border: 2px solid rgb(208, 253, 196);
-    padding: 45px;
+    padding: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 @media only screen and (max-width: 500px){
     .fragrance{
-        padding: 70px;
+        padding: 20px;
+        padding-top: 13px;
+        padding-bottom: 13px;
     }
 }
 
@@ -143,6 +205,7 @@ h3{
     color:rgb(208, 253, 196);
     display: none;
 }
+
 .active .label {
     font-size: 18px;
     font-family: "new-order", sans-serif;
@@ -169,6 +232,11 @@ h3{
 .active .details{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+}
+@media only screen and (max-width: 500px){
+    .active .details{
+        grid-template-columns: 1fr;
+    }
 }
 
 .active .details .info .text{
@@ -215,4 +283,10 @@ img{
     font-family: "tomasa", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+@media only screen and (max-width:500px){
+    .active {
+        z-index: 4;
+        background-color: rgb(128, 128, 128);
+    }
 }
