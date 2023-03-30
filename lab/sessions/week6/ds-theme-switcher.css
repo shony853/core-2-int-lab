@@ -171,24 +171,26 @@ textarea {
     color: #222;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-family: "Bitter", Arial, sans-serif;
+    font-family: "new-order", sans-serif;
+font-weight: 300;
+font-style: normal;
   }
 
 
   :root {
-    --bg-color: pink;
+    --bg-color: rgb(209, 182, 251);
     --font-color: #222;
     --title-color: #0067e6;
     --title-background: #eee;
     --main-border: 1px solid rgba(255, 255, 255, 0.4);
     --main-bg: rgba(255, 255, 255, 0.4);
 
-    --wf-gray: #434E59;
-    --wf-light-gray: #E6ECF2;
-    --wf-bright-yellow: #F2BC1B;
-    --wf-medium-yellow: #CF9730;
-    --wf-medium-brown: #CF9730;
-    --wf-deep-brown: #736048;
+    --wf-gray: #009060;
+    --wf-light-gray: #bae649;
+    --wf-bright-yellow: #f0c9eb;
+    --wf-medium-yellow: #ff88f3;
+    --wf-medium-brown: #2ae3e9;
+    --wf-deep-brown: #a8e9e7;
     --body-text-color: var(--wf-medium-brown);
 
     /* body font size */
@@ -282,7 +284,9 @@ section {
 /* this is code example for typography */
 
 p {
-  font-family: 'Bitter', serif;
+  font-family: "new-order", sans-serif;
+font-weight: 300;
+font-style: normal;
   font-size: var(--text-base-size);
   margin-bottom: 1.5rem;
   line-height: 150%;
@@ -345,42 +349,48 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: var(--text-x6);
   line-height: 110%;
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
   font-size: var(--text-x5);
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 110%;
 }
 
 h3 {
   font-size: var(--text-x4);
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
   line-height: 120%;
 }
 
 h4 {
   font-size: var(--text-x3);
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 120%;
 }
 
 h5 {
   font-size: var(--text-x2);
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 120%;
 }
 
 h6 {
   font-size: var(--text-x1);
-  font-family: 'Oswald', sans-serif; 
-  font-weight: 500;
+  font-family: "bely-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 120%;
 }
 
@@ -409,23 +419,23 @@ h6 {
 
 
 .color-gray {
-    background-color: #434E59;
+    background-color: #009060;
   }
 
     .color-light-gray {
-    background-color: #E6ECF2;
+    background-color: #bae649;
   }
     .color-bright-yellow {
-    background-color: #F2BC1B;
+    background-color: #f0c9eb;
   }
     .color-medium-yellow {
-    background-color: #CF9730;
+    background-color: #ff88f3;
   }
     .color-medium-brown {
-    background-color: #A66312;
+    background-color: #2ae3e9;
   }
     .color-deep-brown {
-    background-color: #736048;
+    background-color: #a8e9e7;
   }
 
 /* theme switcher code */
