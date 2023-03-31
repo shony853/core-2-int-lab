@@ -2,8 +2,8 @@ body{
     background-color: #124f0f;
     color: #aeebe5;
     font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
 h1 {
     font-size: 50px;
@@ -13,8 +13,8 @@ h2 {
 }
 p {
     font-weight: 400; 
-    font-size: 15px;
-    line-height: 17pt;
+    font-size: 17px;
+    line-height: 19pt;
 }
 a {
     color: #aeebe5;
