@@ -179,7 +179,7 @@ font-style: normal;
 
   :root {
     --bg-color: rgb(209, 182, 251);
-    --font-color: #222;
+    --font-color: #22195c;
     --title-color: #0067e6;
     --title-background: #eee;
     --main-border: 1px solid rgba(255, 255, 255, 0.4);
@@ -209,7 +209,7 @@ font-style: normal;
 
   [data-theme="dark"] {
     --bg-color: #111;
-    --font-color: #efefef;
+    --font-color: #affba6;
     --title-color: #fec150;
     --title-background: #222;
     --main-border: 1px solid rgba(255, 255, 255, 0.2);
@@ -420,22 +420,28 @@ h6 {
 
 .color-gray {
     background-color: #009060;
+    border-radius: 0px 90px 90px 0px;
   }
 
     .color-light-gray {
     background-color: #bae649;
+    border-radius: 0px 90px 90px 0px;
   }
     .color-bright-yellow {
     background-color: #f0c9eb;
+    border-radius: 0px 90px 90px 0px;
   }
     .color-medium-yellow {
     background-color: #ff88f3;
+    border-radius: 0px 90px 90px 0px;
   }
     .color-medium-brown {
     background-color: #2ae3e9;
+    border-radius: 0px 90px 90px 0px;
   }
     .color-deep-brown {
     background-color: #a8e9e7;
+    border-radius: 0px 90px 90px 0px;
   }
 
 /* theme switcher code */
