@@ -74,9 +74,9 @@
 }
 
 body{
-    font-family: "dashiell-text", serif;
-    font-weight: 400;
+    font-family: forma-djr-micro, sans-serif;
     font-style: normal;
+    font-weight: 400;
     font-variation-settings: 'wght' var(--wght), 'GRAD' var(--GRAD);
 }
 
@@ -89,35 +89,37 @@ section{
     box-sizing: border-box;
 }
 
-h2{
-    font-weight: bold;
-}
-
 h1, h2{
-  font-family: 'Quiosco Display';
-  font-size: 1.8em;
-  line-height: 1.0;
+    font-family: forma-djr-micro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 1.0;
 }
 p{
-    text-indent: 3rem;
+    text-indent: 2.8rem;
     line-height: 1.4;
     hyphens: auto;
     font-feature-settings: "onum" on;
+    margin-top: .5rem;
 }
 h1 + p, h2 + p{
     text-indent: 0;
 }
 h3 + p{
-    text-indent: 1rem;
-}
-em{
-    text-indent: 1rem;
+    text-indent: 0;
 }
 
 h2{
     margin-top: var(--pad);
+    font-size: 1.4em;
 }
-
+h3{
+    margin-top: 1em;
+    font-family: forma-djr-micro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
 ul{
     font-size: .85em;
     letter-spacing: 0.015em;
@@ -152,7 +154,7 @@ ol li:first-child{
 
 sup{
     font-size:0.5rem;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     vertical-align: super;
 }
 hr.solid {
