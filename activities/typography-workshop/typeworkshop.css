@@ -1,0 +1,165 @@
+/*static font instances*/
+
+/*
+@font-face {
+    font-family: 'Quiosco';
+    font-weight: 400;
+    font-style: normal;
+    src: url(fonts/quiosco/Quiosco-Regular.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Regular.woff) format("woff"),url(fonts/quiosco/Quiosco-Regular.eot?#iefix) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: 'Quiosco';
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/quiosco/Quiosco-Italic.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Italic.woff) format("woff"),url(fonts/quiosco/Quiosco-Italic.eot?#iefix) format("embedded-opentype")
+}*/
+/*@font-face {
+    font-family: 'Quiosco';
+    font-weight: 700;
+    font-style: normal;
+    src: url(fonts/quiosco/Quiosco-Bold.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Bold.woff) format("woff"),url(fonts/quiosco/Quiosco-Bold.eot?#iefix) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: 'Quiosco';
+    font-weight: 700;
+    font-style: italic;
+    src: url(fonts/quiosco/Quiosco-BoldItalic.woff2) format("woff2"),url(fonts/quiosco/Quiosco-BoldItalic.woff) format("woff"),url(fonts/quiosco/Quiosco-BoldItalic.eot?#iefix) format("embedded-opentype")
+}
+*/
+/*
+@font-face {
+    font-family: 'Quiosco Display';
+    font-weight: 400;
+    font-style: normal;
+    src: url(fonts/quiosco/QuioscoDisplay-Regular.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Regular.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Regular.eot?#iefix) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: 'Quiosco Display';
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/quiosco/QuioscoDisplay-Italic.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Italic.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Italic.eot?#iefix) format("embedded-opentype")
+}
+
+
+
+/*variable font*/
+/*
+@font-face {
+    font-family: 'Quiosco VF';
+    font-weight: 400 700;
+    src: url(fonts/quiosco-vf/QuioscoRomanVF.woff2) format("woff2-variations");
+}
+
+@font-face {
+    font-family: 'Quiosco VF';
+    font-weight: 400 700;
+    font-style: italic;
+    src: url(fonts/quiosco-vf/QuioscoItalicVF.woff2) format("woff2-variations");
+}*/
+
+
+:root{
+  --GRAD: 0;
+  --wght: 485;
+  --pad: 4rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "dashiell-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 'wght' var(--wght), 'GRAD' var(--GRAD);
+}
+
+section{
+    background: white;
+    margin: auto;
+    width: 600px;
+    padding: var(--pad);
+    /*border: 5px solid red;*/
+    box-sizing: border-box;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h1, h2{
+  font-family: 'Quiosco Display';
+  font-size: 1.8em;
+  line-height: 1.0;
+}
+p{
+    text-indent: 3rem;
+    line-height: 1.4;
+    hyphens: auto;
+    font-feature-settings: "onum" on;
+}
+h1 + p, h2 + p{
+    text-indent: 0;
+}
+h3 + p{
+    text-indent: 1rem;
+}
+em{
+    text-indent: 1rem;
+}
+
+h2{
+    margin-top: var(--pad);
+}
+
+ul{
+    font-size: .85em;
+    letter-spacing: 0.015em;
+    padding-left: 3rem;
+}
+
+ul li{
+    list-style-type: none;
+    text-indent: -10px;
+    margin-bottom: 1em;
+}
+ul li:before{
+    content: "* ";
+}
+ul li:first-child{
+    margin-top: 1em;
+}
+
+ol{
+    font-size: .85em;
+    letter-spacing: 0.015em;
+    padding-left: 3rem;
+}
+
+ol li{
+    margin-bottom: 1em;
+}
+
+ol li:first-child{
+    margin-top: 1em;
+}
+
+sup{
+    font-size:0.5rem;
+    letter-spacing: -1px;
+    vertical-align: super;
+}
+hr.solid {
+    border-top: 1.2px solid black;
+    margin-top: .3em;
+  }
+
+hr+p{
+    text-indent: 0;
+}
