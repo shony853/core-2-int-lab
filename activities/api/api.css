@@ -1,0 +1,40 @@
+/*@font-face {
+  font-family: 'Allium Rounded';
+  font-weight: bold;
+  src: url('fonts/AlliumRounded-Black.woff2') format('woff2');
+}*/
+
+body{
+    font-family: 'Allium Rounded', sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  main{
+    font-size: 6vw;
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  button{
+    margin-bottom: 1rem;
+    font-size: 4vw;
+    font-family: 'Allium Rounded', sans-serif;
+    padding: .5em;
+    border: 10px solid;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  button:hover{
+    background: yellow;
+    cursor: pointer;
+  }
+  
+  #foximage {
+    width:100%;
+    height:auto;
+  }
+  
