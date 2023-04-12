@@ -19,22 +19,23 @@ body{
   }
   
   button{
-    margin-bottom: 1rem;
-    font-size: 4vw;
+    margin-bottom: 3rem;
+    background-color: skyblue;
+    font-size: 2vw;
     font-family: 'Allium Rounded', sans-serif;
     padding: .5em;
-    border: 10px solid;
-    border-radius: 50%;
+    border: 3px solid;
+    border-radius: 100px;
     outline: none;
   }
   
   button:hover{
-    background: yellow;
+    background: orange;
     cursor: pointer;
   }
   
   #foximage {
-    width:100%;
+    width:80%;
     height:auto;
   }
   
