@@ -2,20 +2,30 @@ body{
     background-color: #124f0f;
     color: #aeebe5;
     font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    width: 700px;
+    margin: auto;
 }
 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 h2 {
     font-weight: 400;
+    font-size: 30px;
 }
 p {
     font-weight: 400; 
-    font-size: 17px;
-    line-height: 19pt;
+    font-size: 20px;
+    line-height: 25px;
 }
 a {
     color: #aeebe5;
+}
+@media only screen and (max-width: 480px){
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
 }
