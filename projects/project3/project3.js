@@ -9,11 +9,8 @@ function displayGeoPlaceName(url) {
   fetch(url, { headers: { "X-App-Token": appToken } })
     .then(response => response.json())
     .then(data => {
-      // Extract unique geo place names
       const uniqueGeoPlaceNames = [...new Set(data.map(item => item.geo_place_name))];
-      // Create HTML for geo place names
       const geoPlaceNameHtml = uniqueGeoPlaceNames.map(name => `<p>${name}</p>`).join("");
-      // Display HTML in geoplaceElement
       geoplaceElement.innerHTML = geoPlaceNameHtml;
     })
     .catch(error => console.error(error));
