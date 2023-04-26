@@ -1,3 +1,10 @@
+const aboutElement = document.querySelector(".about");
+const aboutDetailElement = document.querySelector(".aboutdetail");
+
+aboutElement.addEventListener("click", () => {
+  aboutDetailElement.style.display = aboutDetailElement.style.display === "none" ? "block" : "none";
+});
+
 const appToken = "sEEOQS7Ai1EdS0XHVlDTsf53W";
 const boroughUrl = `https://data.cityofnewyork.us/resource/c3uy-2p5r.json?geo_type_name=Borough&$select=geo_place_name`;
 const citywideUrl = `https://data.cityofnewyork.us/resource/c3uy-2p5r.json?geo_type_name=Citywide&$select=geo_place_name`;
@@ -25,4 +32,11 @@ citywideElement.addEventListener("click", () => displayGeoPlaceName(citywideUrl)
 const cdElement = document.querySelector(".cd");
 cdElement.addEventListener("click", () => {
   cdLabelElement.style.display = "block";
+});
+
+const toggleElement = document.querySelector(".toggle");
+const bodyElement = document.querySelector("body");
+
+toggleElement.addEventListener("click", () => {
+  bodyElement.classList.toggle("dark-mode");
 });
