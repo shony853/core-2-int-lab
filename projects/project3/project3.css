@@ -34,14 +34,23 @@ p:hover {
   background-color: black;
   color: white;
 }
+.cd {
+  line-height: 20px;
+}
+.borough:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 .geoplace {
   /* background-color: pink; */
   border-right: 1.3px solid black;
   height: 100vh;
   overflow-y: scroll;
 }
-
-
+.geoplace:hover + .option {
+  grid-template-columns: 1fr 3fr;
+}
 .about{
   margin-top: 85vh;
 }
