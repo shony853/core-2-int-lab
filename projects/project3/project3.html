@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Air Quality of NYC</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" type="text/css" href="project3.css">
-    <link rel="stylesheet" href="https://use.typekit.net/eqe7stj.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Air Quality of NYC</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
 
-  </head>
-  <body>
+  <link rel="stylesheet" type="text/css" href="project3.css">
+  <link rel="stylesheet" href="https://use.typekit.net/eqe7stj.css">
 
-    <div id="container">
-        <div class="option">
-            <div class="geotype">
-              <br>
-                <p class="cd">&nbsp;1 Community &nbsp;&nbsp;&nbsp;District</p>
-                <p class="borough">&nbsp;2 Borough</p>
-                <p class="citywide">&nbsp;3 Citywide</p>
-                
-                <p class="about">&nbsp;+ About</p>
-            </div>
-            <div class="geoplace">
-              <div class="cdlabel" style="display: none;">
-                <p class="cd1">CD 1</p>
-                <p class="cd2">CD 2</p>
-                <p class="cd3">CD 3</p>
-                <p class="cd4">CD 4</p>
-                <p class="cd5">CD 5</p>
-                <p class="cd6">CD 6</p>
-                <p class="cd7">CD 7</p>
-                <p class="cd8">CD 8</p>
-                <p class="cd9">CD 9</p>
-                <p class="cd10">CD 10</p>
-                <p class="cd11">CD 11</p>
-                <p class="cd12">CD 12</p>
-                <p class="cd13">CD 13</p>
-              </div>
-            </div>
-        </div>
-    
-        <div class="output">
-            <div class="aboutdetail" style="display: none;"> Dataset contains information on New York City air quality surveillance data.<br><br>
-                Air pollution is one of the most important environmental threats to urban populations and while all people are exposed, pollutant emissions, levels of exposure, and population vulnerability vary across neighborhoods. Exposures to common air pollutants have been linked to respiratory 
-                and cardiovascular diseases, cancers, and premature deaths. These indicators provide a perspective across time and NYC geographies to better characterize air quality and health in NYC.
-            </div>
-        </div>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="option">
+      <div class="geotype">
+        <br>
+        <p class="cd">&nbsp;1 Community &nbsp;&nbsp;&nbsp;District</p>
+        <p class="borough">&nbsp;2 Borough</p>
+        <p class="citywide">&nbsp;3 Citywide</p>
+
+        <p class="about">&nbsp;+ About</p>
+      </div>
+      <div class="geoplace">
+      </div>
     </div>
-   
-    <script src="project3.js"></script>
-  </body>	
+
+    <div class="output">
+      <div class="aboutdetail" style="display: none;"> Dataset contains information on New York City air quality
+        surveillance data.<br><br>
+        Air pollution is one of the most important environmental threats to urban populations and while all people are
+        exposed, pollutant emissions, levels of exposure, and population vulnerability vary across neighborhoods.
+        Exposures to common air pollutants have been linked to respiratory
+        and cardiovascular diseases, cancers, and premature deaths. These indicators provide a perspective across time
+        and NYC geographies to better characterize air quality and health in NYC.
+      </div>
+      <div>
+        <div class="output_geoplacename"></div>
+        <div class="output_name">Ozone</div>
+        <div class="output_datavalue highlight">50.2</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="project3.js"></script>
+</body>
+
 </html>
