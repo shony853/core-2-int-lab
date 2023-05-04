@@ -15,14 +15,45 @@ body{
 .option {
   /* background-color: black; */
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  width: 20vw;
+  grid-template-columns: 1fr 1fr;
+  width: 25vw;
+}
+.cd-option{
+  /* top left bottom right */
+  padding: 1vh 0 .5vh .5vh;
+  line-height: 1.1vw;
+  font-size: 1.3vw;
+}
+.cd-option:hover{
+  background-color: black;
+  color: white;
+}
+.borough-option{
+  /* top left bottom right */
+  padding: 1.5vh 0 .5vh .5vh;
+  line-height: .5vw;
+  font-size: 1.5vw;
+}
+.borough-option:hover{
+  background-color: black;
+  color: white;
+}
+.citywide-option{
+  /* top left bottom right */
+  padding: 0 0 .5vh .5vh;
+  margin-top: 1vh;
+  font-size: 1.5vw;
+}
+.citywide-option:hover{
+  background-color: black;
+  color: white;
 }
 
 .geotype {
   /* background-color: blue; */
   border-right: 1.3px solid black;
   color: black;
+  padding-top: 1vh;
 }
 
 p {
@@ -35,7 +66,7 @@ p:hover {
   color: white;
 }
 .cd {
-  line-height: 20px;
+  /* line-height: 1.3vw; */
 }
 .borough:hover {
   background-color: black;
@@ -46,19 +77,24 @@ p:hover {
   /* background-color: pink; */
   border-right: 1.3px solid black;
   height: 100vh;
-  font-size: 1vw;
-  line-height: 1vw;
+  font-size:1.5vw;
+  /* padding-top: 1vh; */
+  /* padding-top: vw; */
+  /* line-height: 1vw; */
   overflow-y: scroll;
 }
 .geoplace .geoplacename:hover {
   background-color: black;
   color: white;
 }
-.geoplace:hover + .option {
-  grid-template-columns: 1fr 3fr;
-}
 .about{
   margin-top: 83vh;
+}
+.visibility{
+  font-family: "Gridlite PE Variable Web";
+  font-variation-settings: "wght" 600, "BACK" 200, "RECT" 200, "ELSH" 4;
+  font-size: 12vw;
+  margin-top: 3vw;
 }
 .aboutdetail {
   margin: 0 auto;
@@ -67,14 +103,14 @@ p:hover {
   width: 60vw;
 }
 .output_geoplacename {
-  margin-left: 8.5vw;
+  margin-left: 7vw;
   margin-top: 5vw;
-  font-size: 3vw;
-  width: 65vw;
+  font-size: 2.5vw;
+  width: 55vw;
   font-weight: 600;
 }
 .output_name{
-  margin-left: 8.5vw;
+  margin-left: 7vw;
   margin-top: 1vw;
   font-size: 2vw;
 }
@@ -85,9 +121,9 @@ p:hover {
   font-style: normal;
 }
 .output_datavalue{
-  margin-left: 8vw;
+  margin-left: 7vw;
   margin-top: 5vw;
-  font-size: 30vw;
+  font-size: 20vw;
   font-family: "Gridlite PE Variable Web";
 }
 .highlight{
