@@ -102,8 +102,8 @@ p:hover {
 .output_geoplacename {
   margin-left: 7vw;
   margin-top: 5vw;
-  font-size: 3.5vw;
-  width: 50vw;
+  font-size: 3vw;
+  width: 45vw;
   font-weight: 600;
 }
 .output_name{
@@ -120,7 +120,7 @@ p:hover {
 .output_datavalue{
   margin-left: 7vw;
   margin-top: 5vw;
-  font-size: 20vw;
+  font-size: 22vw;
   font-family: "Gridlite PE Variable Web";
 }
 .highlight{
