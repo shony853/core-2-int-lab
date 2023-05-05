@@ -30,7 +30,7 @@ body{
 }
 .borough-option{
   /* top left bottom right */
-  padding: 1.5vh 0 .5vh .5vh;
+  padding: 1.5vh 0 1vh .5vh;
   line-height: .5vw;
   font-size: 1.5vw;
 }
@@ -64,9 +64,6 @@ p {
 p:hover {
   background-color: black;
   color: white;
-}
-.cd {
-  /* line-height: 1.3vw; */
 }
 .borough:hover {
   background-color: black;
@@ -105,8 +102,8 @@ p:hover {
 .output_geoplacename {
   margin-left: 7vw;
   margin-top: 5vw;
-  font-size: 2.5vw;
-  width: 55vw;
+  font-size: 3.5vw;
+  width: 50vw;
   font-weight: 600;
 }
 .output_name{
@@ -128,5 +125,5 @@ p:hover {
 }
 .highlight{
   --wght: 550;
-  font-variation-settings: "wght" var(--wght), "BACK" 200, "RECT" 200, "ELSH" 4;
+  font-variation-settings: "wght" var(--wght), "BACK" 100, "RECT" 100, "ELSH" 4;
 }
