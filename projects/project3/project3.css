@@ -189,8 +189,9 @@ p:hover {
   }
   .output_geoplacename{
     font-size: 9vw;
-    width: 90vw;
-    margin-top: 15vh;
+    width: 95vw;
+    line-height: 8vw;
+    margin-top: 13vh;
   }
   .output_name{
     font-size: 7vw;
