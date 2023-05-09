@@ -142,20 +142,62 @@ p:hover {
   .geoplace{
     height: 15vh;
   }
+  .cd{
+    line-height: 5vw;
+  }
+  p{
+    font-size: 5vw;
+    line-height: 5.5vw;
+    margin-top: .2vw;
+    /* letter-spacing: -.5px; */
+  }
   .about{
-    margin-top: 1vh;
+    margin-top: 1vw;
+  }
+  .cd-option{
+    font-size: 4vw;
+    line-height: 4vw;
+    padding: .5vh 0 .5vh 1vh;
+    letter-spacing: -1px;
+  }
+  .borough-option{
+    font-size: 5vw;
+    line-height: 5vw;
+    padding: .3vh 0 .3vh 1vh;
+    letter-spacing: -1px;
+  }
+  .citywide-option{
+    font-size: 5vw;
+    line-height: 4vw;
+    padding: .5vh 0 .5vh 1vh;
+    margin-top: 1.5vw;
+    letter-spacing: -1px;
   }
   .aboutdetail{
-    font-size: 3vw;
+    font-size: 4.5vw;
     width: 80vw;
     margin-top: 5vh;
     margin-left: 7vw;
+    letter-spacing: -.5px;
   }
   .output{
     width: 100vw;
   }
+  .output_geoplacename{
+    font-size: 9vw;
+    width: 90vw;
+    margin-top: 15vh;
+  }
+  .output_name{
+    font-size: 7vw;
+  }
+  .output_datavalue{
+    font-size: 32vw;
+    margin-top: 5vh;
+  }
   .visibility{
     font-size: 16vw;
     margin-left: 0;
+    margin-bottom: 5vh;
   }
 }
