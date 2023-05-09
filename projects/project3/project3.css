@@ -186,6 +186,7 @@ p:hover {
   }
   .output{
     width: 100vw;
+    height: auto;
   }
   .output_geoplacename{
     font-size: 9vw;
@@ -203,7 +204,7 @@ p:hover {
   .visibility{
     font-size: 16vw;
     margin-left: 0;
-    /* margin-bottom: 2vh; */
+    margin-bottom: 0;
     margin-top: 1vw;
   }
 }
