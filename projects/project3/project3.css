@@ -141,7 +141,7 @@ p:hover {
     border-bottom: 1px solid black;
   }
   .geotype{
-    height: 15vh;
+    height: 14vh;
   }
   .geoplace{
     height: 15vh;
@@ -180,7 +180,7 @@ p:hover {
   .aboutdetail{
     font-size: 4vw;
     width: 80vw;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-left: 7vw;
     letter-spacing: -.5px;
   }
@@ -203,6 +203,6 @@ p:hover {
   .visibility{
     font-size: 16vw;
     margin-left: 0;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
   }
 }
