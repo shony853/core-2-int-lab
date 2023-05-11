@@ -1,0 +1,35 @@
+body{
+    color: rgb(128, 128, 128);
+    font-family: "new-order", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    margin-left: 2vw;
+    text-align: center;
+    line-height: 2vw;
+}
+a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+a:hover{
+    color: blueviolet;
+}
+.image{
+    display:flex;
+    justify-content: center;
+    margin-top:3vw;
+    margin-bottom:2vw;
+  }
+.description{
+    width: 60vw;
+    text-align: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
